@@ -32,11 +32,6 @@
     margin-top: 15px;
     font-size: 17px;
     color: rgb(24, 190, 190);
-    /* color: inherit; */
-}
-
-.galary>div:hover .sp-p{
-    color: inherit;
 }
 
 .galary>div:hover {

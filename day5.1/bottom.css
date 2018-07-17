@@ -1,0 +1,92 @@
+
+.bottom {
+    background-color: rgb(81, 81, 81);
+    color: white;
+    /* border: 1px solid black; */
+}
+
+.bottom a {
+    color: white;
+}
+.bottom-nav {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+.bottom-nav-logo {
+    float: left;
+}
+
+.bottom-nav-logo img {
+    margin: 10px auto;
+    /* border: 1px solid black; */
+}
+
+p.sp-b {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.bottom-nav-bar {
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 90px;
+    font-size: 13px;
+    /* border: 1px solid aqua; */
+}
+
+.bottom-nav-wrap{
+    position: relative;
+    /* vertical-align: bottom; */
+    /* border: 1px solid black; */
+    /* border: 1px solid aqua; */
+    /* height: 35px; */
+    /* width: 300px; */
+}
+
+.bottom-nav-wrap a {
+    /* display: inline-block; */
+
+    /* border: 1px solid black;  */
+    margin-right: 40px;
+    line-height: 35px;
+    /* margin-top: 15px; */
+    /* vertical-align: bottom; */
+    /* line-height: 35px; */
+}
+
+.bottom-nav-wrap a:hover {
+    text-decoration: underline;
+}
+.bottom-nav-wrap img {
+    margin-left: 60px;
+    margin-right: 0;
+    position: absolute;
+    top: 7px;
+    /* border: 1px solid black; */
+}
+a.sp-link {
+    margin-right: 5px;
+    margin-left: 95px;
+}
+
+
+
+.end {
+    width: 1000px;
+    margin: 20px auto 0 auto;
+    padding: 20px 0 20px 20px;
+    border-top: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.end p {
+    font-size: 13px;
+}
+.end-p {
+    float: left;
+    margin-right: 390px;
+}

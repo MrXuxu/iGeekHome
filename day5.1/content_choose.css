@@ -58,67 +58,23 @@
     width: 200px;
     /* border-radius: 15px; */
 }
-.search-about {
-    float: left;
-}
-.search-bar {
-    position: relative;
-    width: 300px;
-    float: left;
-    /* margin-left: 350px; */
-    margin-top: 5px;
-    margin-left: 100px;
-    /* border: 1px solid aqua; */
-}
-
-.search-q {
-    float: right;
-}
-input.search-jianshu {
-    width: 300px;
-    height: 30px;
-    background: #fff;
-    /* border: 1px solid aqua; */
-    padding-left: 10px;
-    border: none;
-    border-radius: 15px;
-    outline: none;
-    
-}
-
-button.jianshu {
-    width: 30px;
-    height: 20px;
-    position: absolute;
-    right: -5px;
-    top: 50%;
-    margin-top: -10px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    background: url("images/search.png") no-repeat center center;
-}
-/* .btn {
-    border: 2px solid rgb(24, 190, 190);
+.btn {
+    /* border: 2px solid rgb(24, 190, 190); */
     background: url("images/search.png") no-repeat center center;
     width: 40px;
     height: 25px;
     position: absolute;
     top:17px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     border-color: rgb(24, 190, 190);
     border-radius: 20px;
     cursor: pointer;
-} */
+}
 
 .question {
-    /* margin-left: 130px; */
+    margin-left: 130px;
     line-height: 40px;
-    /* vertical-align: middle; */
-    margin-top: 3px;
-    position: absolute;
-    top: 14px;
-    right: 250px;
+    vertical-align: middle;
 }
 
 a.sp-q {
