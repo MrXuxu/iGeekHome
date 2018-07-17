@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    /* margin: 80px 50px auto 1000px; */
+    width: 400px;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 15px 3px rgba(51, 51, 51, 0.53);
+    position: absolute;
+    left: 1000px;
+    top: 90px;
+    padding: 20px 0;
+    background-color: white;
+}
+
+
+
+a.left, a.right {
+    display: block;
+    width: 100px;
+    float: left;
+    /* margin-top: 20px; */
+    padding: 0 20px;
+    text-align: center;
+    /* position: absolute; */
+    top: 20px;
+    font-size: 25px;
+    /* border: 1px solid black; */
+}
+
+a.left {
+    margin-left: 60px;
+    border-right: 2px solid gray;
+    color: #f56600;
+}
+
+/* .logo span {
+    color #e0e0e0;
+} */
+
+a.left, a.right {
+    margin-top: 10px;
+} 
+
+/* ----------form----------- */
+
+/* .logo-form::before {
+    display: table;
+    content: "";
+} */
+.logo-form {
+    margin-top: 50px;
+    /* border: 1px solid aqua; */
+}
+#form-text, #form-pwd {
+    width: 350px;
+    height: 40px;
+    margin: 10px 25px;
+}
+
+#form-sub {
+    width: 354px;
+    height: 50px;
+    margin: 10px 25px;
+    background: #f56600;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+}
+
+.register {
+    margin-left: 120px;
+}
+.register, .forget {
+    font-size: 13px;
+    color: gray;
+}
+
+.logo>span {
+    color: gray;
+}
+.other {
+    width: 350px;
+    height: 100px;
+    margin: 100px auto 10px auto;
+    text-align: center;
+    /* border-top: 1px solid black; */
+    position: relative;
+    box-sizing: border-box;
+    /* padding-top: 10px; */
+}
+
+/* .other-title {
+    display: inline-block;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%, -60%);
+    font-size: 13px;
+    z-index: 1;
+} */
+
+.icon {
+    width: 200px;
+    margin: 30px auto;
+    /* border: 1px solid aqua; */
+}
+.icon>a {
+    /* display: inline-block; */
+    display: inline-block;
+    margin: 0 10px;
+    width: 20px;
+    height: 20px;
+    background: black url("images/icons_type.png") no-repeat;
+    border-radius: 10px;
+}
+
+.icon .qq{
+    background-position-x: -18px;
+}
+
+.icon .weibo{
+    background-position-x: -37px;
+}
+
+.icon .pay{
+    background-position-x: -57px;
+}
+
+.icon .wechat{
+    background-position-x: -86px;
+}
+
+fieldset {
+    border: none;
+    font-size: 13px;
+    color: gray;
+    border-top: 1px solid gray;
+}
