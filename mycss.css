@@ -17,6 +17,10 @@ a {
     text-decoration: none;
 }
 
+.nav-left a:hover {
+    background: none;
+}
+
 .header {
     background-color: rgba(0, 0, 0);
     z-index: 3;
