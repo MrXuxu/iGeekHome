@@ -94,7 +94,7 @@ table.message td {
     position: absolute;
 }
 .p-page a,
- .n-page a {
+.n-page a {
     display: none;
     width: 200px;
     line-height: 300px;
@@ -110,12 +110,9 @@ table.message td {
     top: 200px;
     right: 0;
 }
-.p-page:hover,
-.n-page:hover {
-    background: rgba(0, 0, 0, 0.2);
-}
 
 .p-page:hover a,
 .n-page:hover a {
     display: inline-block;
+    background: rgba(0, 0, 0, 0.2);
 }
