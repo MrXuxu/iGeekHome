@@ -17,9 +17,9 @@ a {
     text-decoration: none;
 }
 
-.nav-left a:hover {
+/* .nav-left a:hover {
     background: none;
-}
+} */
 
 .header {
     background-color: rgba(0, 0, 0);
@@ -92,7 +92,7 @@ ul.inside li a {
     background-color: black;
 }
 
-a:hover {
+ul li a:hover {
     background-color: gray;
 }
 
